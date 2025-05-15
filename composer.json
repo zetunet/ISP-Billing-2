@@ -1,0 +1,28 @@
+{
+    "name": "zetunet/billing",
+    "description": "ISP Billing System",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.5",
+        "firebase/php-jwt": "^6.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "monolog/monolog": "^3.0",
+        "respect/validation": "^2.0",
+        "twig/twig": "^3.0",
+        "phpmailer/phpmailer": "^6.8",
+        "evilfreelancer/routeros-api-php": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZetuNet",
+            "email": "support@zetunet.co.ke"
+        }
+    ],
+    "minimum-stability": "stable"
+} 
